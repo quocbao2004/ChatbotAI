@@ -157,9 +157,7 @@ def update_user_info():
     user_id = data.get('user_id')  
     new_username = data.get('username')
     new_email = data.get('email')
-    new_role = data.get('role')
-
-    
+ 
     user = User.query.filter_by(user_id=user_id).first()
     if not user:
         return jsonify({'message': 'User not found'}), 404
@@ -171,9 +169,6 @@ def update_user_info():
         if User.query.filter_by(email=new_email).first():
             return jsonify({'message': 'Email already in use'}), 400
         user.email = new_email
-    if new_role:
-        user.role = new_role
-
     
     db.session.commit()
 
