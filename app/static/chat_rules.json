@@ -1,0 +1,97 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Xin chào",
+        "Chào bạn",
+        "Hello",
+        "Hi",
+        "Có ai ở đây không?",
+        "Chào"
+      ],
+      "responses": [
+        "Chào bạn! Tôi có thể giúp gì?",
+        "Xin chào, cần tôi hỗ trợ gì nè?",
+        "Hello! Hỏi gì cũng được nhé"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tạm biệt",
+        "Hẹn gặp lại",
+        "Bye",
+        "Chào nhé",
+        "Tôi đi đây",
+        "Hết giờ rồi"
+      ],
+      "responses": [
+        "Hẹn gặp lại bạn sau nhé!",
+        "Chúc một ngày tốt lành!",
+        "Bye bye 👋"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Cảm ơn",
+        "Cảm ơn bạn nhiều",
+        "Cảm ơn nhé",
+        "Thanks",
+        "Biết ơn lắm"
+      ],
+      "responses": [
+        "Không có gì đâu!",
+        "Rất vui vì được giúp bạn!",
+        "Chúc bạn học tốt nha!"
+      ]
+    },
+    {
+      "tag": "subject_info",
+      "patterns": [
+        "Môn học có những gì?",
+        "Có bao nhiêu môn học?",
+        "Tôi muốn biết các môn học"
+      ],
+      "responses": [
+        "Hiện tại hệ thống có Toán, Lý, Hóa, Lịch sử, Tiếng Anh, v.v.",
+        "Bạn có thể chọn môn từ danh sách: Toán, Văn, Sử, Địa, Ngoại ngữ..."
+      ]
+    },
+    {
+      "tag": "quiz_request",
+      "patterns": [
+        "Tôi muốn làm bài trắc nghiệm",
+        "Có bài kiểm tra không?",
+        "Cho tôi làm bài quiz",
+        "Làm bài trắc nghiệm"
+      ],
+      "responses": [
+        "Bạn muốn làm bài môn gì? Chúng tôi có các bộ đề sẵn sàng!",
+        "Bạn chọn môn học để bắt đầu làm bài nhé!"
+      ]
+    },
+    {
+      "tag": "chatbot_help",
+      "patterns": [
+        "Bạn làm được gì?",
+        "Chức năng của bạn là gì?",
+        "Bạn có thể giúp gì?",
+        "Tôi dùng chatbot như nào?"
+      ],
+      "responses": [
+        "Tôi có thể giúp bạn giải đáp câu hỏi môn học, làm bài quiz, đưa ra gợi ý học tập!"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Xin lỗi, tôi chưa hiểu rõ câu hỏi của bạn 😥",
+        "Bạn vui lòng nói rõ hơn nhé!",
+        "Tôi chưa có thông tin để trả lời câu này"
+      ]
+    }
+  ]
+}
