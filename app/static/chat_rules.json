@@ -92,6 +92,385 @@
         "Bạn vui lòng nói rõ hơn nhé!",
         "Tôi chưa có thông tin để trả lời câu này"
       ]
+    },
+    {
+      "tag": "feeling_stressed",
+      "patterns": [
+        "Tôi cảm thấy mệt mỏi",
+        "Học nhiều quá rồi",
+        "Tôi stress vì bài vở",
+        "Không muốn học nữa",
+        "Áp lực quá"
+      ],
+      "responses": [
+        "Bạn hãy nghỉ ngơi một chút nhé, sức khỏe vẫn quan trọng hơn!",
+        "Đừng áp lực quá, học từ từ thôi bạn ơi 💪",
+        "Tôi luôn ở đây nếu bạn cần nói chuyện!"
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "Khi nào thi?",
+        "Lịch thi đâu?",
+        "Tôi muốn xem lịch kiểm tra",
+        "Có thi cuối kỳ không?"
+      ],
+      "responses": [
+        "Bạn có thể kiểm tra lịch thi trong phần Lịch học hoặc hỏi giáo viên bộ môn nhé!",
+        "Lịch thi thường được cập nhật theo lớp học của bạn."
+      ]
+    },
+    {
+      "tag": "learning_tips",
+      "patterns": [
+        "Có mẹo học nào không?",
+        "Gợi ý cách học hiệu quả?",
+        "Làm sao để học tốt hơn?",
+        "Học bài như nào cho nhớ lâu?"
+      ],
+      "responses": [
+        "Bạn có thể học bằng sơ đồ tư duy, chia nhỏ thời gian học và luyện tập thường xuyên!",
+        "Học nhóm hoặc đặt câu hỏi ngược lại là cách rất hiệu quả đó!"
+      ]
+    },
+    {
+      "tag": "account_help",
+      "patterns": [
+        "Tôi quên mật khẩu",
+        "Cách đổi mật khẩu",
+        "Tôi bị khóa tài khoản",
+        "Không đăng nhập được"
+      ],
+      "responses": [
+        "Bạn có thể bấm vào 'Quên mật khẩu' để khôi phục qua email.",
+        "Liên hệ admin nếu bạn bị khóa tài khoản nhé."
+      ]
+    },
+    {
+      "tag": "ask_bot_name",
+      "patterns": [
+        "Tên bạn là gì?",
+        "Chatbot tên gì?",
+        "Tôi đang nói chuyện với ai?",
+        "Bạn tên gì vậy?"
+      ],
+      "responses": [
+        "Tôi là trợ lý học tập của bạn, gọi tôi là EduBot nha 🤖",
+        "Tên tôi là EduBot – người bạn đồng hành của học sinh!"
+      ]
+    },
+    {
+      "tag": "school_rules",
+      "patterns": [
+        "Nội quy trường là gì?",
+        "Trường có quy định gì không?",
+        "Có được mang điện thoại không?",
+        "Giờ vào lớp là mấy giờ?"
+      ],
+      "responses": [
+        "Trường yêu cầu mặc đồng phục, đúng giờ và không sử dụng điện thoại trong lớp.",
+        "Bạn nên xem nội quy tại bảng thông báo hoặc hỏi giáo viên chủ nhiệm."
+      ]
+    },
+    {
+      "tag": "weather_info",
+      "patterns": [
+        "Hôm nay có mưa không?",
+        "Thời tiết hôm nay thế nào?",
+        "Tôi có nên mang ô không?",
+        "Ngoài trời lạnh không?"
+      ],
+      "responses": [
+        "Tôi không có dữ liệu thời tiết trực tiếp, nhưng bạn nên kiểm tra ứng dụng thời tiết nhé.",
+        "Mang theo áo khoác và ô vẫn là ý hay trong mùa này!"
+      ]
+    },
+    {
+      "tag": "class_schedule",
+      "patterns": [
+        "Hôm nay học môn gì?",
+        "Lịch học hôm nay đâu?",
+        "Tôi có học vào chiều nay không?",
+        "Giờ nào học Toán?"
+      ],
+      "responses": [
+        "Bạn có thể xem thời khóa biểu trong mục 'Lịch học' hoặc hỏi giáo viên.",
+        "Hôm nay bạn có Toán, Văn và Sinh vào buổi sáng nhé!"
+      ]
+    },
+    {
+      "tag": "classroom_location",
+      "patterns": [
+        "Lớp tôi học ở đâu?",
+        "Phòng học số mấy?",
+        "Tôi không tìm thấy lớp",
+        "Tôi mới chuyển lớp, học ở đâu?"
+      ],
+      "responses": [
+        "Bạn có thể xem sơ đồ lớp ở bảng tin hoặc hỏi bảo vệ/cô chủ nhiệm nhé.",
+        "Mình nghĩ lớp bạn ở tầng 2 khu B đấy!"
+      ]
+    },
+    {
+      "tag": "absent_notice",
+      "patterns": [
+        "Hôm nay nghỉ học không?",
+        "Có thông báo nghỉ học không?",
+        "Có ai nghỉ không?",
+        "Giáo viên có dạy hôm nay không?"
+      ],
+      "responses": [
+        "Bạn hãy kiểm tra bảng thông báo hoặc nhóm lớp để biết thông tin nghỉ học.",
+        "Hiện tại chưa có thông báo nghỉ học nào cả."
+      ]
+    },
+    {
+      "tag": "late_permission",
+      "patterns": [
+        "Tôi đi học muộn",
+        "Tôi đến trễ có sao không?",
+        "Giáo viên có cho vào lớp không?",
+        "Tôi bị kẹt xe"
+      ],
+      "responses": [
+        "Bạn nên xin phép giáo viên khi đến lớp trễ nhé.",
+        "Hãy giải thích lý do và cố gắng đi sớm lần sau nha!"
+      ]
+    },
+    {
+      "tag": "recess_info",
+      "patterns": [
+        "Bao giờ đến giờ ra chơi?",
+        "Giờ ăn trưa là mấy giờ?",
+        "Tôi đói rồi!",
+        "Có bán đồ ăn không?"
+      ],
+      "responses": [
+        "Giờ ra chơi thường là 9h15 và 14h30 bạn nhé!",
+        "Bạn có thể ăn nhẹ ở căn tin hoặc chờ đến giờ nghỉ trưa."
+      ]
+    },
+    {
+      "tag": "school_supplies",
+      "patterns": [
+        "Tôi quên bút rồi",
+        "Cần mang gì hôm nay?",
+        "Tôi thiếu sách giáo khoa",
+        "Có ai cho mượn thước không?"
+      ],
+      "responses": [
+        "Bạn nên kiểm tra cặp trước khi đến trường để không quên đồ dùng học tập nhé.",
+        "Bạn có thể mượn bạn cùng lớp hoặc mua thêm ở căn tin."
+      ]
+    },
+    {
+      "tag": "school_rules",
+      "patterns": [
+        "Nội quy trường là gì?",
+        "Trường có quy định gì không?",
+        "Có được mang điện thoại không?",
+        "Giờ vào lớp là mấy giờ?"
+      ],
+      "responses": [
+        "Trường yêu cầu mặc đồng phục, đúng giờ và không sử dụng điện thoại trong lớp.",
+        "Bạn nên xem nội quy tại bảng thông báo hoặc hỏi giáo viên chủ nhiệm."
+      ]
+    },
+    {
+      "tag": "weather_info",
+      "patterns": [
+        "Hôm nay có mưa không?",
+        "Thời tiết hôm nay thế nào?",
+        "Tôi có nên mang ô không?",
+        "Ngoài trời lạnh không?"
+      ],
+      "responses": [
+        "Tôi không có dữ liệu thời tiết trực tiếp, nhưng bạn nên kiểm tra ứng dụng thời tiết nhé.",
+        "Mang theo áo khoác và ô vẫn là ý hay trong mùa này!"
+      ]
+    },
+    {
+      "tag": "class_schedule",
+      "patterns": [
+        "Hôm nay học môn gì?",
+        "Lịch học hôm nay đâu?",
+        "Tôi có học vào chiều nay không?",
+        "Giờ nào học Toán?"
+      ],
+      "responses": [
+        "Bạn có thể xem thời khóa biểu trong mục 'Lịch học' hoặc hỏi giáo viên.",
+        "Hôm nay bạn có Toán, Văn và Sinh vào buổi sáng nhé!"
+      ]
+    },
+    {
+      "tag": "classroom_location",
+      "patterns": [
+        "Lớp tôi học ở đâu?",
+        "Phòng học số mấy?",
+        "Tôi không tìm thấy lớp",
+        "Tôi mới chuyển lớp, học ở đâu?"
+      ],
+      "responses": [
+        "Bạn có thể xem sơ đồ lớp ở bảng tin hoặc hỏi bảo vệ/cô chủ nhiệm nhé.",
+        "Mình nghĩ lớp bạn ở tầng 2 khu B đấy!"
+      ]
+    },
+    {
+      "tag": "absent_notice",
+      "patterns": [
+        "Hôm nay nghỉ học không?",
+        "Có thông báo nghỉ học không?",
+        "Có ai nghỉ không?",
+        "Giáo viên có dạy hôm nay không?"
+      ],
+      "responses": [
+        "Bạn hãy kiểm tra bảng thông báo hoặc nhóm lớp để biết thông tin nghỉ học.",
+        "Hiện tại chưa có thông báo nghỉ học nào cả."
+      ]
+    },
+    {
+      "tag": "late_permission",
+      "patterns": [
+        "Tôi đi học muộn",
+        "Tôi đến trễ có sao không?",
+        "Giáo viên có cho vào lớp không?",
+        "Tôi bị kẹt xe"
+      ],
+      "responses": [
+        "Bạn nên xin phép giáo viên khi đến lớp trễ nhé.",
+        "Hãy giải thích lý do và cố gắng đi sớm lần sau nha!"
+      ]
+    },
+    {
+      "tag": "recess_info",
+      "patterns": [
+        "Bao giờ đến giờ ra chơi?",
+        "Giờ ăn trưa là mấy giờ?",
+        "Tôi đói rồi!",
+        "Có bán đồ ăn không?"
+      ],
+      "responses": [
+        "Giờ ra chơi thường là 9h15 và 14h30 bạn nhé!",
+        "Bạn có thể ăn nhẹ ở căn tin hoặc chờ đến giờ nghỉ trưa."
+      ]
+    },
+    {
+      "tag": "school_supplies",
+      "patterns": [
+        "Tôi quên bút rồi",
+        "Cần mang gì hôm nay?",
+        "Tôi thiếu sách giáo khoa",
+        "Có ai cho mượn thước không?"
+      ],
+      "responses": [
+        "Bạn nên kiểm tra cặp trước khi đến trường để không quên đồ dùng học tập nhé.",
+        "Bạn có thể mượn bạn cùng lớp hoặc mua thêm ở căn tin."
+      ]
+    },
+    {
+      "tag": "school_rules",
+      "patterns": [
+        "Nội quy trường là gì?",
+        "Trường có quy định gì không?",
+        "Có được mang điện thoại không?",
+        "Giờ vào lớp là mấy giờ?"
+      ],
+      "responses": [
+        "Trường yêu cầu mặc đồng phục, đúng giờ và không sử dụng điện thoại trong lớp.",
+        "Bạn nên xem nội quy tại bảng thông báo hoặc hỏi giáo viên chủ nhiệm."
+      ]
+    },
+    {
+      "tag": "weather_info",
+      "patterns": [
+        "Hôm nay có mưa không?",
+        "Thời tiết hôm nay thế nào?",
+        "Tôi có nên mang ô không?",
+        "Ngoài trời lạnh không?"
+      ],
+      "responses": [
+        "Tôi không có dữ liệu thời tiết trực tiếp, nhưng bạn nên kiểm tra ứng dụng thời tiết nhé.",
+        "Mang theo áo khoác và ô vẫn là ý hay trong mùa này!"
+      ]
+    },
+    {
+      "tag": "class_schedule",
+      "patterns": [
+        "Hôm nay học môn gì?",
+        "Lịch học hôm nay đâu?",
+        "Tôi có học vào chiều nay không?",
+        "Giờ nào học Toán?"
+      ],
+      "responses": [
+        "Bạn có thể xem thời khóa biểu trong mục 'Lịch học' hoặc hỏi giáo viên.",
+        "Hôm nay bạn có Toán, Văn và Sinh vào buổi sáng nhé!"
+      ]
+    },
+    {
+      "tag": "classroom_location",
+      "patterns": [
+        "Lớp tôi học ở đâu?",
+        "Phòng học số mấy?",
+        "Tôi không tìm thấy lớp",
+        "Tôi mới chuyển lớp, học ở đâu?"
+      ],
+      "responses": [
+        "Bạn có thể xem sơ đồ lớp ở bảng tin hoặc hỏi bảo vệ/cô chủ nhiệm nhé.",
+        "Mình nghĩ lớp bạn ở tầng 2 khu B đấy!"
+      ]
+    },
+    {
+      "tag": "absent_notice",
+      "patterns": [
+        "Hôm nay nghỉ học không?",
+        "Có thông báo nghỉ học không?",
+        "Có ai nghỉ không?",
+        "Giáo viên có dạy hôm nay không?"
+      ],
+      "responses": [
+        "Bạn hãy kiểm tra bảng thông báo hoặc nhóm lớp để biết thông tin nghỉ học.",
+        "Hiện tại chưa có thông báo nghỉ học nào cả."
+      ]
+    },
+    {
+      "tag": "late_permission",
+      "patterns": [
+        "Tôi đi học muộn",
+        "Tôi đến trễ có sao không?",
+        "Giáo viên có cho vào lớp không?",
+        "Tôi bị kẹt xe"
+      ],
+      "responses": [
+        "Bạn nên xin phép giáo viên khi đến lớp trễ nhé.",
+        "Hãy giải thích lý do và cố gắng đi sớm lần sau nha!"
+      ]
+    },
+    {
+      "tag": "recess_info",
+      "patterns": [
+        "Bao giờ đến giờ ra chơi?",
+        "Giờ ăn trưa là mấy giờ?",
+        "Tôi đói rồi!",
+        "Có bán đồ ăn không?"
+      ],
+      "responses": [
+        "Giờ ra chơi thường là 9h15 và 14h30 bạn nhé!",
+        "Bạn có thể ăn nhẹ ở căn tin hoặc chờ đến giờ nghỉ trưa."
+      ]
+    },
+    {
+      "tag": "school_supplies",
+      "patterns": [
+        "Tôi quên bút rồi",
+        "Cần mang gì hôm nay?",
+        "Tôi thiếu sách giáo khoa",
+        "Có ai cho mượn thước không?"
+      ],
+      "responses": [
+        "Bạn nên kiểm tra cặp trước khi đến trường để không quên đồ dùng học tập nhé.",
+        "Bạn có thể mượn bạn cùng lớp hoặc mua thêm ở căn tin."
+      ]
     }
   ]
 }

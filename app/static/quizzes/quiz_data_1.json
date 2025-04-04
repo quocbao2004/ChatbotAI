@@ -1,0 +1,75 @@
+{
+  "title": "Lịch sử Đảng Cộng sản Việt Nam",
+  "questions": [
+    {
+      "question": "Đảng Cộng sản Việt Nam được thành lập vào ngày tháng năm nào?",
+      "options": ["3/2/1930", "3/2/1929", "3/2/1931", "3/2/1932"],
+      "answer": "3/2/1930"
+    },
+    {
+      "question": "Ai là người sáng lập Đảng Cộng sản Việt Nam?",
+      "options": ["Phan Bội Châu", "Hồ Chí Minh", "Trần Phú", "Nguyễn Ái Quốc"],
+      "answer": "Hồ Chí Minh"
+    },
+    {
+      "question": "Luận cương chính trị của Đảng Cộng sản Đông Dương được thông qua vào tháng nào?",
+      "options": [
+        "Tháng 1/1930",
+        "Tháng 10/1930",
+        "Tháng 3/1931",
+        "Tháng 12/1930"
+      ],
+      "answer": "Tháng 10/1930"
+    },
+    {
+      "question": "Sự kiện lịch sử nào đánh dấu sự mở đầu cuộc kháng chiến chống thực dân Pháp xâm lược?",
+      "options": [
+        "Cuộc khởi nghĩa Bắc Sơn",
+        "Cuộc khởi nghĩa Nam Kỳ",
+        "Toàn quốc kháng chiến",
+        "Chiến dịch Điện Biên Phủ"
+      ],
+      "answer": "Toàn quốc kháng chiến"
+    },
+    {
+      "question": "Chiến dịch Điện Biên Phủ kết thúc vào ngày nào?",
+      "options": ["7/5/1954", "7/5/1953", "7/5/1952", "7/5/1951"],
+      "answer": "7/5/1954"
+    },
+    {
+      "question": "Đại hội lần thứ II của Đảng Cộng sản Việt Nam tổ chức tại đâu?",
+      "options": ["Hà Nội", "Tuyên Quang", "Cao Bằng", "Thanh Hóa"],
+      "answer": "Tuyên Quang"
+    },
+    {
+      "question": "Đường lối cách mạng Việt Nam trong giai đoạn 1954-1975 là gì?",
+      "options": [
+        "Đấu tranh vũ trang giành độc lập",
+        "Đấu tranh chính trị hòa bình",
+        "Đường lối cách mạng tư sản",
+        "Đường lối cách mạng dân tộc dân chủ nhân dân"
+      ],
+      "answer": "Đường lối cách mạng dân tộc dân chủ nhân dân"
+    },
+    {
+      "question": "Ai là Tổng Bí thư của Đảng Cộng sản Việt Nam trong giai đoạn 1930-1935?",
+      "options": ["Trần Phú", "Hà Huy Tập", "Lê Duẩn", "Nguyễn Văn Cừ"],
+      "answer": "Trần Phú"
+    },
+    {
+      "question": "Chính cương của Đảng Lao động Việt Nam được thông qua tại Đại hội nào?",
+      "options": ["Đại hội I", "Đại hội II", "Đại hội III", "Đại hội IV"],
+      "answer": "Đại hội II"
+    },
+    {
+      "question": "Tuyên ngôn Độc lập của nước Việt Nam Dân chủ Cộng hòa được Hồ Chí Minh đọc tại đâu?",
+      "options": [
+        "Quảng trường Ba Đình",
+        "Quảng trường Nhà hát lớn",
+        "Quảng trường Cách mạng tháng Tám",
+        "Quảng trường Độc Lập"
+      ],
+      "answer": "Quảng trường Ba Đình"
+    }
+  ]
+}
